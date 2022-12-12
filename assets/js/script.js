@@ -80,30 +80,3 @@ const revealOnScroll = function () {
 window.addEventListener("scroll", revealOnScroll);
 
 revealOnScroll();
-
-// Home Swiper
-var homeSwiper = new Swiper(".home-swiper", {
-  spaceBetween: 16,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  loop: 'true',
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true,
-  },
-});
